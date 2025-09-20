@@ -19,42 +19,37 @@
 
     combo_esc {
       timeout-ms = <40>;
-      key-positions = <1 2>;
+      key-positions = <0 1>;
       bindings = <&kp ESC>;
     };
     combo_grave {
       timeout-ms = <40>;
-      key-positions = <2 3>;
+      key-positions = <1 2>;
       bindings = <&kp GRAVE>;
     };
     combo_lpar {
       timeout-ms = <40>;
-      key-positions = <7 8>;
+      key-positions = <6 7>;
       bindings = <&kp LPAR>;
     };
     combo_rpar {
       timeout-ms = <40>;
-      key-positions = <8 9>;
+      key-positions = <7 8>;
       bindings = <&kp RPAR>;
     };
     combo_quot {
       timeout-ms = <40>;
-      key-positions = <19 20>;
+      key-positions = <16 17>;
       bindings = <&kp QUOT>;
     };
     combo_tab {
       timeout-ms = <40>;
-      key-positions = <13 14>;
+      key-positions = <10 11>;
       bindings = <&kp TAB>;
-    };
-    combo_globe {
-      timeout-ms = <40>;
-      key-positions = <16 17>;
-      bindings = <&kp GLOBE>;
     };
     combo_semi {
       timeout-ms = <40>;
-      key-positions = <20 21>;
+      key-positions = <17 18>;
       bindings = <&kp SEMI>;
     };
   };
@@ -87,9 +82,9 @@
     navigation_layer {
       label = "NAVIGN";
       bindings = < 
-        &kp F1  &kp F2  &kp F3        &kp F4            &kp F5                   &kp F6   &kp F7   &kp F8    &kp F9    &kp F10   
-        &kp F11 &kp F12 &kp C_VOL_UP  &kp C_PLAY_PAUSE  &kp K_MUTE               &trans   &kp LEFT &kp UP    &kp RIGHT &mo CONFIG
-        &trans  &trans  &kp C_VOL_DN  &kp C_PREV        &kp C_NEXT               &trans   &trans   &kp DOWN  &trans    &trans    
+        &kp F1     &kp F2  &kp F3        &kp F4            &kp F5                   &kp F6   &kp F7   &kp F8    &kp F9    &kp F10   
+        &kp F11    &kp F12 &kp C_VOL_UP  &kp C_PLAY_PAUSE  &kp K_MUTE               &trans   &kp LEFT &kp UP    &kp RIGHT &mo CONFIG
+        &kp GLOBE  &trans  &kp C_VOL_DN  &kp C_PREV        &kp C_NEXT               &trans   &trans   &kp DOWN  &trans    &trans    
         &trans  &trans &trans    &trans &trans &trans
       >;
     };
